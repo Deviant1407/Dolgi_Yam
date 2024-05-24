@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" modified="2024-05-24T15:42:50.261Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" etag="1Z7td2QHrpPdRhHiRpJB" version="24.4.0" type="google">
+  <diagram name="Страница — 1" id="tN_5sdTZt4jHpIMskIRc">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="twIZrDTPp7se1Q-ZhwPa-1" value="Заказ" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="twIZrDTPp7se1Q-ZhwPa-2" value="&lt;u&gt;ID заказа&lt;/u&gt;&lt;div&gt;ID покупателя&lt;/div&gt;&lt;div&gt;ID товара&lt;/div&gt;&lt;div&gt;Кол-во (шт)&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="twIZrDTPp7se1Q-ZhwPa-1">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="twIZrDTPp7se1Q-ZhwPa-3" value="Категория" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="twIZrDTPp7se1Q-ZhwPa-4" value="&lt;u&gt;ID категории&lt;/u&gt;&lt;div&gt;Название&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="twIZrDTPp7se1Q-ZhwPa-3">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="twIZrDTPp7se1Q-ZhwPa-5" value="Микросхемы" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="twIZrDTPp7se1Q-ZhwPa-6" value="&lt;u&gt;ID товара&lt;/u&gt;&lt;div&gt;ID категории&lt;br&gt;&lt;div&gt;Модель&lt;/div&gt;&lt;div&gt;ID корпуса&lt;/div&gt;&lt;/div&gt;&lt;div&gt;ID производителя&lt;/div&gt;&lt;div&gt;Цена за шт&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="twIZrDTPp7se1Q-ZhwPa-5">
+          <mxGeometry y="50" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="twIZrDTPp7se1Q-ZhwPa-7" value="Покупатели" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="twIZrDTPp7se1Q-ZhwPa-8" value="&lt;u&gt;ID покупателя&lt;/u&gt;&lt;div&gt;ФИО&lt;/div&gt;&lt;div&gt;Логин&lt;/div&gt;&lt;div&gt;Пароль&lt;/div&gt;&lt;div&gt;Адрес&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="twIZrDTPp7se1Q-ZhwPa-7">
+          <mxGeometry y="50" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="twIZrDTPp7se1Q-ZhwPa-9" value="Производители" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="40" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="twIZrDTPp7se1Q-ZhwPa-10" value="&lt;u&gt;ID производителя&lt;/u&gt;&lt;div&gt;Название&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="twIZrDTPp7se1Q-ZhwPa-9">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="twIZrDTPp7se1Q-ZhwPa-11" value="Тип корпуса" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="40" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="twIZrDTPp7se1Q-ZhwPa-12" value="&lt;u&gt;ID корпуса&lt;/u&gt;&lt;div&gt;Название&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="twIZrDTPp7se1Q-ZhwPa-11">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="twIZrDTPp7se1Q-ZhwPa-13" value="" style="fontSize=12;html=1;endArrow=ERmany;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="twIZrDTPp7se1Q-ZhwPa-4" target="twIZrDTPp7se1Q-ZhwPa-5">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="510" y="390" as="sourcePoint" />
+            <mxPoint x="610" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="twIZrDTPp7se1Q-ZhwPa-14" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmany;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="twIZrDTPp7se1Q-ZhwPa-10" target="twIZrDTPp7se1Q-ZhwPa-5">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="520" y="380" as="sourcePoint" />
+            <mxPoint x="620" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="twIZrDTPp7se1Q-ZhwPa-15" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmany;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="twIZrDTPp7se1Q-ZhwPa-12" target="twIZrDTPp7se1Q-ZhwPa-5">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="650" y="380" as="sourcePoint" />
+            <mxPoint x="750" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="twIZrDTPp7se1Q-ZhwPa-16" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmany;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="twIZrDTPp7se1Q-ZhwPa-8" target="twIZrDTPp7se1Q-ZhwPa-1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="320" y="520" as="sourcePoint" />
+            <mxPoint x="420" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="twIZrDTPp7se1Q-ZhwPa-17" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmany;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="twIZrDTPp7se1Q-ZhwPa-5" target="twIZrDTPp7se1Q-ZhwPa-1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="280" y="480" as="sourcePoint" />
+            <mxPoint x="380" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
